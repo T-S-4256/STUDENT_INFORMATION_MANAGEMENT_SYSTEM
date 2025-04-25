@@ -1,0 +1,95 @@
+2025-04-16 13:19:55,939 - INFO - root - Store Marks Request Fetched 
+2025-04-16 13:20:05,012 - INFO - root - Grade Calculated : Destination
+2025-04-16 13:20:05,115 - INFO - root - Marks Added Successfully,UpdatedData:{'_id': ObjectId('67ff5ecc9c084a22a35d0a35'), 'name': 'SHIVAM PRAKASH', 'course': 'BSC', 'roll_number': 'R02025101', 'date_of_birth': '09-09-2008', 'semester': '4', 'grade': 'Destination', 'marks': [None, None, {'maths': 92, 'phy': 69, 'chem': 79, 'hindi': 93, 'english': 84}], 'semster': '1'}
+2025-04-16 13:22:46,801 - INFO - root - Store Marks Request Fetched 
+2025-04-16 13:22:54,792 - INFO - root - Grade Calculated : Destination
+2025-04-16 13:22:54,835 - ERROR - root - Error Occured In Adding Marks
+2025-04-16 13:27:27,327 - INFO - root - Store Marks Request Fetched 
+2025-04-16 13:27:51,369 - INFO - root - Grade Calculated : Destination
+2025-04-16 13:27:51,432 - ERROR - root - Error Occured In Adding Marks : Plan executor error during findAndModify :: caused by :: Cannot create field 'Second_sem' in element {marks: []}, full error: {'ok': 0.0, 'errmsg': "Plan executor error during findAndModify :: caused by :: Cannot create field 'Second_sem' in element {marks: []}", 'code': 28, 'codeName': 'PathNotViable', '$clusterTime': {'clusterTime': Timestamp(1744790270, 24), 'signature': {'hash': b'\x1f\xd6\xf7\xef\xb2\xa8\xf4\x86\xb9\xa0\x857\xf7\xe5\x88\xe3\xbe\x11r\xaa', 'keyId': 7438644384691650588}}, 'operationTime': Timestamp(1744790270, 24)}
+2025-04-16 13:29:46,575 - INFO - root - Store Marks Request Fetched 
+2025-04-16 13:29:53,196 - INFO - root - Grade Calculated : Destination
+2025-04-16 13:29:53,256 - ERROR - root - Error Occured In Adding Marks : Plan executor error during findAndModify :: caused by :: Cannot create field 'Second_sem' in element {marks: []}, full error: {'ok': 0.0, 'errmsg': "Plan executor error during findAndModify :: caused by :: Cannot create field 'Second_sem' in element {marks: []}", 'code': 28, 'codeName': 'PathNotViable', '$clusterTime': {'clusterTime': Timestamp(1744790392, 20), 'signature': {'hash': b'\xbcZ\xf76\\|\xba\x85\xea(\xfe\xd8\xa5\xb0\x83\xb7^\xaa2\xa7', 'keyId': 7438644384691650588}}, 'operationTime': Timestamp(1744790392, 20)}
+2025-04-16 13:31:01,021 - INFO - root - Store Marks Request Fetched 
+2025-04-16 13:31:06,519 - INFO - root - Grade Calculated : Destination
+2025-04-16 13:31:06,583 - INFO - root - Marks Added Successfully,UpdatedData:{'_id': ObjectId('67ff5ecc9c084a22a35d0a35'), 'name': 'SHIVAM PRAKASH', 'course': 'BSC', 'roll_number': 'R02025101', 'date_of_birth': '09-09-2008', 'semester': '4', 'grade': 'Destination', 'marks': {'Second_sem': {'maths': 92, 'phy': 69, 'chem': 79, 'hindi': 93, 'english': 84}}, 'semster': '1'}
+2025-04-16 13:32:12,630 - INFO - root - Store Marks Request Fetched 
+2025-04-16 13:32:21,121 - INFO - root - Grade Calculated : Destination
+2025-04-16 13:32:21,179 - INFO - root - Marks Added Successfully,UpdatedData:{'_id': ObjectId('67ff5ecc9c084a22a35d0a35'), 'name': 'SHIVAM PRAKASH', 'course': 'BSC', 'roll_number': 'R02025101', 'date_of_birth': '09-09-2008', 'semester': '4', 'grade': 'Destination', 'marks': {'Second_sem': {'maths': 92, 'phy': 69, 'chem': 79, 'hindi': 93, 'english': 84}, '2': {'maths': 92, 'phy': 69, 'chem': 79, 'hindi': 93, 'english': 84}}, 'semster': '1'}
+2025-04-16 13:43:15,081 - INFO - root - Add Student Request Fetched 
+2025-04-16 13:43:19,836 - INFO - root - Generate Roll Request Fetched
+2025-04-16 13:43:20,228 - INFO - root - Roll Number Generated Successfully : R02025102
+2025-04-16 13:43:30,784 - INFO - root - Student Added Successfully,Student Data : InsertOneResult(ObjectId('67ff66aa9f63b4b3366ceebe'), acknowledged=True)
+2025-04-16 13:43:33,359 - INFO - root - Add Student Request Fetched 
+2025-04-16 13:43:37,539 - INFO - root - Generate Roll Request Fetched
+2025-04-16 13:43:37,581 - INFO - root - Roll Number Generated Successfully : R02025103
+2025-04-16 13:43:49,514 - INFO - root - Student Added Successfully,Student Data : InsertOneResult(ObjectId('67ff66bd9f63b4b3366ceebf'), acknowledged=True)
+2025-04-16 13:43:55,779 - INFO - root - Add Student Request Fetched 
+2025-04-16 13:44:00,815 - INFO - root - Generate Roll Request Fetched
+2025-04-16 13:44:00,861 - INFO - root - Roll Number Generated Successfully : R02025104
+2025-04-16 13:44:10,562 - INFO - root - Student Added Successfully,Student Data : InsertOneResult(ObjectId('67ff66d29f63b4b3366ceec0'), acknowledged=True)
+2025-04-16 13:44:13,401 - INFO - root - Add Student Request Fetched 
+2025-04-16 13:44:19,418 - INFO - root - Generate Roll Request Fetched
+2025-04-16 13:44:19,469 - INFO - root - Roll Number Generated Successfully : R02025105
+2025-04-16 13:44:27,059 - INFO - root - Student Added Successfully,Student Data : InsertOneResult(ObjectId('67ff66e39f63b4b3366ceec1'), acknowledged=True)
+2025-04-16 13:44:59,093 - INFO - root - Store Marks Request Fetched 
+2025-04-16 13:45:17,428 - INFO - root - Grade Calculated : Fisrt
+2025-04-16 13:45:17,477 - INFO - root - Marks Added Successfully,UpdatedData:{'_id': ObjectId('67ff66aa9f63b4b3366ceebe'), 'name': 'SATYAM PRAKASH', 'course': 'BCA', 'roll_number': 'R02025102', 'date_of_birth': '17-08-2006', 'semester': '4', 'grade': 'Fisrt', 'marks': {'2': {'maths': 90, 'phy': 40, 'chem': 80, 'hindi': 50, 'english': 40}}}
+2025-04-16 13:45:20,674 - INFO - root - Store Marks Request Fetched 
+2025-04-16 13:45:54,252 - INFO - root - Grade Calculated : Fisrt
+2025-04-16 13:45:54,312 - INFO - root - Marks Added Successfully,UpdatedData:{'_id': ObjectId('67ff66bd9f63b4b3366ceebf'), 'name': 'AMAN GUPTA', 'course': 'BCA', 'roll_number': 'R02025103', 'date_of_birth': '01-01-2002', 'semester': '4', 'grade': 'Fisrt', 'marks': {'2': {'maths': 67, 'phy': 56, 'chem': 90, 'hindi': 40, 'english': 51}}}
+2025-04-16 13:46:00,353 - INFO - root - Find Class Topper Request Found
+2025-04-16 13:47:32,795 - INFO - root - Find Class Topper Request Found
+2025-04-16 13:48:44,597 - INFO - root - Find Class Topper Request Found
+2025-04-16 13:55:10,994 - INFO - root - Download Result Request Fetched
+2025-04-16 13:57:30,259 - INFO - root - Download Result Request Fetched
+2025-04-16 13:57:36,461 - WARNING - root - Invalid Roll Number Or Semester
+2025-04-16 13:58:55,144 - INFO - root - Download Result Request Fetched
+2025-04-16 13:58:59,908 - WARNING - root - Invalid Roll Number Or Semester
+2025-04-16 14:00:12,892 - INFO - root - Download Result Request Fetched
+2025-04-16 14:03:40,002 - INFO - root - Download Result Request Fetched
+2025-04-16 14:04:14,645 - ERROR - root - Error Occured In Finding Student For Download Result : cluster0-shard-00-01.i7kp3.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67ff6b614f8fb09f30647a03, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.i7kp3.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.i7kp3.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('cluster0-shard-00-01.i7kp3.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-02.i7kp3.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2025-04-16 14:04:37,677 - INFO - root - Download Result Request Fetched
+2025-04-16 14:08:40,300 - INFO - root - Download Result Request Fetched
+2025-04-16 14:10:36,184 - INFO - root - Download Result Request Fetched
+2025-04-16 14:11:07,832 - INFO - root - Download Result Request Fetched
+2025-04-16 14:20:29,433 - INFO - root - Visualise Student Performance Request Fetched
+2025-04-16 14:24:22,387 - INFO - root - Visualise Student Performance Request Fetched
+2025-04-16 14:34:58,977 - INFO - root - Calculate Gpa Request Fetched
+2025-04-18 15:08:17,029 - INFO - root - Add Student Request Fetched 
+2025-04-18 15:08:29,075 - INFO - root - Generate Roll Request Fetched
+2025-04-18 15:08:29,391 - INFO - root - Roll Number Generated Successfully : R02025106
+2025-04-18 15:08:51,830 - INFO - root - Student Added Successfully,Student Data : InsertOneResult(ObjectId('68021dab93a34c601fda4977'), acknowledged=True)
+2025-04-18 15:33:48,679 - INFO - root - Add Student Request Fetched 
+2025-04-18 15:33:55,462 - INFO - root - Generate Roll Request Fetched
+2025-04-18 15:33:56,027 - INFO - root - Roll Number Generated Successfully : R02025107
+2025-04-18 15:34:09,018 - INFO - root - Student Added Successfully,Student Data : InsertOneResult(ObjectId('68022398653ab5eb03d34d09'), acknowledged=True)
+2025-04-18 15:35:45,882 - INFO - root - Delete Student Request Fetched
+2025-04-18 15:36:31,967 - INFO - root - Student Deleted Successfullt
+2025-04-18 15:38:40,760 - INFO - root - Update Student Request Fetched 
+2025-04-18 15:38:45,234 - INFO - root - Student Found : None
+2025-04-18 15:38:45,234 - WARNING - root - Invalid Roll Number
+2025-04-18 15:38:52,445 - INFO - root - Update Student Request Fetched 
+2025-04-18 15:39:17,574 - INFO - root - Student Found : {'_id': ObjectId('68021dab93a34c601fda4977'), 'name': 'PANGAMBAM SENDASH', 'course': 'BCA', 'roll_number': 'R02025106', 'date_of_birth': '01-01-1992', 'semester': '4', 'grade': None, 'marks': {}}
+2025-04-18 15:39:34,469 - INFO - root - Student Data Updated Successfullt ,Updated Data : {'_id': ObjectId('68021dab93a34c601fda4977'), 'name': 'RAHUL SHARMA', 'course': 'BSC', 'roll_number': 'R02025106', 'date_of_birth': '01-01-2000', 'semester': '4', 'grade': None, 'marks': {}, 'semster': '3'}
+2025-04-18 15:40:45,830 - INFO - root - Visualise Student Performance Request Fetched
+2025-04-18 15:43:31,073 - INFO - root - Find Class Topper Request Found
+2025-04-18 15:45:16,175 - INFO - root - Calculate Gpa Request Fetched
+2025-04-18 15:47:27,333 - INFO - root - Calculate Gpa Request Fetched
+2025-04-23 11:11:37,567 - INFO - root - Add Student Request Fetched 
+2025-04-23 11:11:43,563 - INFO - root - Generate Roll Request Fetched
+2025-04-23 11:11:43,882 - INFO - root - Roll Number Generated Successfully : R02025107
+2025-04-23 11:11:59,469 - INFO - root - Student Added Successfully,Student Data : InsertOneResult(ObjectId('68087da766fc6c041cc8ef7f'), acknowledged=True)
+2025-04-23 11:12:39,188 - INFO - root - Delete Student Request Fetched
+2025-04-23 11:13:13,114 - INFO - root - Student Deleted Successfullt
+2025-04-23 11:13:31,974 - INFO - root - Update Student Request Fetched 
+2025-04-23 11:13:45,825 - INFO - root - Student Found : {'_id': ObjectId('68021dab93a34c601fda4977'), 'name': 'RAHUL SHARMA', 'course': 'BSC', 'roll_number': 'R02025106', 'date_of_birth': '01-01-2000', 'semester': '4', 'grade': None, 'marks': {}, 'semster': '3'}
+2025-04-23 11:14:34,843 - INFO - root - Student Data Updated Successfullt ,Updated Data : {'_id': ObjectId('68021dab93a34c601fda4977'), 'name': 'RAHUL SHARMA', 'course': 'BSC', 'roll_number': 'R02025106', 'date_of_birth': '2004', 'semester': '4', 'grade': None, 'marks': {}, 'semster': '3'}
+2025-04-23 11:14:58,189 - INFO - root - Store Marks Request Fetched 
+2025-04-23 11:15:18,565 - INFO - root - Grade Calculated : Destination
+2025-04-23 11:15:18,609 - INFO - root - Marks Added Successfully,UpdatedData:{'_id': ObjectId('68021dab93a34c601fda4977'), 'name': 'RAHUL SHARMA', 'course': 'BSC', 'roll_number': 'R02025106', 'date_of_birth': '2004', 'semester': '4', 'grade': 'Destination', 'marks': {'4': {'maths': 90, 'phy': 89, 'chem': 90, 'hindi': 70, 'english': 70}}, 'semster': '3'}
+2025-04-23 11:15:48,428 - INFO - root - Find Class Topper Request Found
+2025-04-23 11:16:12,937 - INFO - root - Download Result Request Fetched
+2025-04-23 11:16:21,453 - INFO - root - Result Downloaded Successfully At: d:\PROJECT.H\4TH_SEM_PYTHON_PROJECTS\S_I_M_S_TERMINAL\results\R02025106_Semester4_Result.csv
+2025-04-23 11:16:47,863 - INFO - root - Visualise Student Performance Request Fetched
+2025-04-23 11:17:09,197 - INFO - root - Calculate Gpa Request Fetched
